@@ -1,0 +1,36 @@
+project setup (python env , requirements , .env, first run)
+
+STEP 1 :  Create Project Folder 
+
+mkdir folder-name 
+cd folder-name 
+
+STEP 2 : install uv
+
+pip install uv
+
+STEP 3: Create Virtual Environment 
+
+uv venv
+activate virtual Environment
+.venv\scripts\activate
+
+STEP 4 : Install Required Packages
+
+uv pip install -r requirements.txt
+
+STEP 5 : setup .env file 
+
+STEP 6: Create Basic folder structure
+
+mkdir core detectors services static ml_models
+mkdir services/auth services/coaching services/config_services/state services/tracking services/ui services/vision
+
+type nul > core\__init__.py
+type nul > detectors\__init__.py
+type nul > services\__init__.py
+type nul > ml_models\__init__.py
+type nul > services\vision\__init__.py
+
+
+

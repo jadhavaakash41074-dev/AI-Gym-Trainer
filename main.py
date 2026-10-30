@@ -59,7 +59,7 @@ def main():
                 llm_coach, tts
             )
 
-            st.success("VoicePipeline initialized")
+            # st.success("VoicePipeline initialized")
 
         except Exception as e:
             st.session_state.voice_pipeline = None
